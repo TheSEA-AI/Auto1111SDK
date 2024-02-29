@@ -53,7 +53,8 @@
     "ESRGAN_tile_overlap": 8,
     "realesrgan_enabled_models": [
         "R-ESRGAN 4x+",
-        "R-ESRGAN 4x+ Anime6B"
+        "R-ESRGAN 4x+ Anime6B",
+        "4x-Ultrasharp"
     ],
     "upscaler_for_img2img": null,
     "face_restoration": false,
