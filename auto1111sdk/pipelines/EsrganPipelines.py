@@ -54,7 +54,7 @@ real_esrgan_info = {
     "R-ESRGAN 4x+": {
         "scale": 4, 
         "model": lambda: RRDBNet(num_in_ch=3, num_out_ch=3, num_feat=64, num_block=23, num_grow_ch=32, scale=4), 
-        "path":"https://huggingface.co/datasets/Kizi-Art/Upscale/blob/fa98e357882a23b8e7928957a39462fbfaee1af5/4x-UltraSharp.pth"
+        "path":"https://huggingface.co/lokCX/4x-Ultrasharp/blob/main/4x-UltraSharp.pth"
     }, 
     "4x-UltraSharp": {
         "scale": 4, 
