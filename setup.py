@@ -51,7 +51,7 @@ setup(
     "scikit-image==0.21.0",
     "timm==0.9.2",
     "tomesd==0.1.3",
-    "torch==2.1.0",
+    #"torch==2.1.0",
     "torchdiffeq==0.2.3",
     "torchsde==0.2.6",
     "transformers==4.30.2",
