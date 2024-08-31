@@ -69,7 +69,7 @@ real_esrgan_info = {
     "4x NMKD Superscale": {
         "scale": 4, 
         "model": lambda: RRDBNet(num_in_ch=3, num_out_ch=3, num_feat=64, num_block=23, num_grow_ch=32, scale=4), 
-        "path":"https://civitai.com/api/download/models/156841?type=Model&format=PickleTensor"
+        "path":"https://huggingface.co/gemasai/4x_NMKD-Superscale-SP_178000_G/blob/main/4x_NMKD-Superscale-SP_178000_G.pth"
     }, 
 }
 
