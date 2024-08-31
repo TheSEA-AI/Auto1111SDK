@@ -66,6 +66,11 @@ real_esrgan_info = {
         "model": lambda: RRDBNet(num_in_ch=3, num_out_ch=3, num_feat=64, num_block=23, num_grow_ch=32, scale=2), 
         "path":"https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.1/RealESRGAN_x2plus.pth"
     }, 
+    "4x NMKD Superscale": {
+        "scale": 4, 
+        "model": lambda: RRDBNet(num_in_ch=3, num_out_ch=3, num_feat=64, num_block=23, num_grow_ch=32, scale=4), 
+        "path":"https://civitai.com/api/download/models/156841?type=Model&format=PickleTensor"
+    }, 
 }
 
 def download_realesrgan(model_id, weight_paths):
