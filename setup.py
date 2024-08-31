@@ -45,7 +45,7 @@ setup(
     "psutil==5.9.5",
     "pytorch_lightning==1.9.4",
     #"realesrgan==0.3.0",
-    "git+https://github.com/TheSEA-AI/Real-ESRGAN.git",
+    #"git+https://github.com/TheSEA-AI/Real-ESRGAN.git",
     "resize-right==0.0.2",
     "safetensors==0.3.1",
     "scikit-image==0.21.0",
